@@ -21,7 +21,8 @@ CineMatch is a hybrid movie recommendation system combining Content-Based Filter
 - `data/processed/` — (ignored) processed data / artifacts
 - `models/` — (ignored) trained models or serialized artifacts
 - `notebooks/` — exploration and experiments
-- `src/` — core recommender implementations and tests
+- `src/` — recommender implementations
+- `tests/` — test scripts
 - `requirements.txt` — Python dependencies
 - `README.md` — this file
 
@@ -49,7 +50,7 @@ CineMatch is a hybrid movie recommendation system combining Content-Based Filter
   ```
 - Or run quick local tests:
   ```bash
-  python src/test_hybrid.py
+  python tests/test_hybrid.py
   ```
 
 ## Explanation: Content-Based Filtering
