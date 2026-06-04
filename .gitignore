@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs/editors
+.vscode/
+*.swp
+.DS_Store
+
+# Data and models (adjust if you intend to include small sample data)
+data/processed/
+models/*.pkl
+models/*.joblib
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+
+# Environment files
+.env
